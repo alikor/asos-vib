@@ -1,0 +1,69 @@
+[
+  {
+    "name": "straightforward amendment",
+    "question": "Please triage PO-10001. Supplier confirmed fewer units than ordered.",
+    "expected": {
+      "po_id": "PO-10001",
+      "recommended_action": "amend",
+      "confidence": "high",
+      "must_include_citations": [
+        "po_amendment_policy.md",
+        "variance_detection_sop.md"
+      ],
+      "must_not_match": [
+        "@",
+        "Alice Example",
+        "Bob Example",
+        "Cara Example",
+        "Dan Example",
+        "Eve Example",
+        "Frank Example"
+      ]
+    }
+  },
+  {
+    "name": "high value and delay escalation",
+    "question": "Triage PO-10008. It has a major short shipment and supplier delay.",
+    "expected": {
+      "po_id": "PO-10008",
+      "recommended_action": "escalate",
+      "escalation_target_role": "Head of Buying",
+      "must_not_match": [
+        "@",
+        "Alice Example",
+        "Bob Example",
+        "Cara Example",
+        "Dan Example",
+        "Eve Example",
+        "Frank Example"
+      ]
+    }
+  },
+  {
+    "name": "contradictory amendment policy",
+    "question": "Can we amend PO-10012 in-place? It has an 8% quantity variance.",
+    "expected": {
+      "po_id": "PO-10012",
+      "recommended_action": "escalate",
+      "confidence": "low",
+      "must_include_citations": [
+        "po_amendment_policy.md §3",
+        "po_amendment_policy.md §5"
+      ],
+      "rationale_must_include_any": [
+        "contradict",
+        "conflict",
+        "inconsistent"
+      ],
+      "must_not_match": [
+        "@",
+        "Alice Example",
+        "Bob Example",
+        "Cara Example",
+        "Dan Example",
+        "Eve Example",
+        "Frank Example"
+      ]
+    }
+  }
+]

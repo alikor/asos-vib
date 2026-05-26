@@ -1,0 +1,162 @@
+[
+  {
+    "sku": "SKU-DRESS-001",
+    "po_id": "PO-10001",
+    "forecast_qty": 1000,
+    "actual_qty": 960,
+    "forecast_value_gbp": 12500,
+    "actual_value_gbp": 12000
+  },
+  {
+    "sku": "SKU-DRESS-002",
+    "po_id": "PO-10002",
+    "forecast_qty": 800,
+    "actual_qty": 0,
+    "forecast_value_gbp": 9500,
+    "actual_value_gbp": 0
+  },
+  {
+    "sku": "SKU-TOP-003",
+    "po_id": "PO-10003",
+    "forecast_qty": 1500,
+    "actual_qty": 0,
+    "forecast_value_gbp": 14500,
+    "actual_value_gbp": 0
+  },
+  {
+    "sku": "SKU-TOP-004",
+    "po_id": "PO-10004",
+    "forecast_qty": 1200,
+    "actual_qty": 1140,
+    "forecast_value_gbp": 13800,
+    "actual_value_gbp": 13200
+  },
+  {
+    "sku": "SKU-OUTER-005",
+    "po_id": "PO-10005",
+    "forecast_qty": 500,
+    "actual_qty": 480,
+    "forecast_value_gbp": 18000,
+    "actual_value_gbp": 17500
+  },
+  {
+    "sku": "SKU-ACC-006",
+    "po_id": "PO-10006",
+    "forecast_qty": 2000,
+    "actual_qty": 1980,
+    "forecast_value_gbp": 8100,
+    "actual_value_gbp": 8000
+  },
+  {
+    "sku": "SKU-DRESS-007",
+    "po_id": "PO-10007",
+    "forecast_qty": 1200,
+    "actual_qty": 1080,
+    "forecast_value_gbp": 24000,
+    "actual_value_gbp": 23000
+  },
+  {
+    "sku": "SKU-SHOE-008",
+    "po_id": "PO-10008",
+    "forecast_qty": 2000,
+    "actual_qty": 1200,
+    "forecast_value_gbp": 130000,
+    "actual_value_gbp": 125000
+  },
+  {
+    "sku": "SKU-ACC-009",
+    "po_id": "PO-10009",
+    "forecast_qty": 3000,
+    "actual_qty": 0,
+    "forecast_value_gbp": 11000,
+    "actual_value_gbp": 0
+  },
+  {
+    "sku": "SKU-TOP-010",
+    "po_id": "PO-10010",
+    "forecast_qty": 1000,
+    "actual_qty": 700,
+    "forecast_value_gbp": 10000,
+    "actual_value_gbp": 9800
+  },
+  {
+    "sku": "SKU-OUTER-011",
+    "po_id": "PO-10011",
+    "forecast_qty": 600,
+    "actual_qty": 0,
+    "forecast_value_gbp": 22000,
+    "actual_value_gbp": 0
+  },
+  {
+    "sku": "SKU-TOP-012",
+    "po_id": "PO-10012",
+    "forecast_qty": 1000,
+    "actual_qty": 920,
+    "forecast_value_gbp": 18500,
+    "actual_value_gbp": 18000
+  },
+  {
+    "sku": "SKU-DRESS-013",
+    "po_id": "PO-10013",
+    "forecast_qty": 900,
+    "actual_qty": 855,
+    "forecast_value_gbp": 11000,
+    "actual_value_gbp": 10800
+  },
+  {
+    "sku": "SKU-SHOE-014",
+    "po_id": "PO-10014",
+    "forecast_qty": 1600,
+    "actual_qty": 1600,
+    "forecast_value_gbp": 32500,
+    "actual_value_gbp": 32000
+  },
+  {
+    "sku": "SKU-ACC-015",
+    "po_id": "PO-10015",
+    "forecast_qty": 2500,
+    "actual_qty": 2375,
+    "forecast_value_gbp": 9500,
+    "actual_value_gbp": 9200
+  },
+  {
+    "sku": "SKU-OUTER-016",
+    "po_id": "PO-10016",
+    "forecast_qty": 750,
+    "actual_qty": 600,
+    "forecast_value_gbp": 27000,
+    "actual_value_gbp": 26000
+  },
+  {
+    "sku": "SKU-TOP-017",
+    "po_id": "PO-10017",
+    "forecast_qty": 1100,
+    "actual_qty": 660,
+    "forecast_value_gbp": 14000,
+    "actual_value_gbp": 13750
+  },
+  {
+    "sku": "SKU-TOP-018",
+    "po_id": "PO-10018",
+    "forecast_qty": 600,
+    "actual_qty": 0,
+    "forecast_value_gbp": 7200,
+    "actual_value_gbp": 0
+  },
+  {
+    "sku": "SKU-DRESS-019",
+    "po_id": "PO-10019",
+    "forecast_qty": 1400,
+    "actual_qty": 0,
+    "forecast_value_gbp": 19500,
+    "actual_value_gbp": 0
+  },
+  {
+    "sku": "SKU-OUTER-020",
+    "po_id": "PO-10020",
+    "forecast_qty": 400,
+    "actual_qty": 200,
+    "forecast_value_gbp": 14500,
+    "actual_value_gbp": 14000
+  }
+]

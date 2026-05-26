@@ -1,0 +1,15 @@
+services:
+  po-triage-agent:
+    build: .
+    image: po-triage-agent:local
+    container_name: po-triage-agent
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env
+    environment:
+      - PORT=3000
+    volumes:
+      - ./storage:/app/storage
+      - ./corpus:/app/corpus
+      - ./data:/app/data

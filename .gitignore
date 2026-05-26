@@ -1,0 +1,8 @@
+node_modules
+dist
+.env
+.DS_Store
+coverage
+storage/events.jsonl
+storage/triage-case-projections.json
+storage/vector-index.json
